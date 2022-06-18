@@ -1,0 +1,7 @@
+#N canvas 491 76 913 627 16;
+#X obj 64 152 gemwin;
+#X msg 65 72 create \, 1;
+#X msg 86 106 destroy;
+#X obj 65 232 gemhead;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
